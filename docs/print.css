@@ -1,0 +1,138 @@
+*{ 
+    background:transparent !important;  
+    color:#000 !important;  
+    text-shadow:none !important;  
+    filter:none !important;  
+    -ms-filter:none !important;  
+}
+
+body{  
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;  
+    font-size:13px;  
+    line-height:14px;  
+    color: #333;
+}
+
+.footer, .navbar, .img-cabecalho, linha_01, .impressao, .linha_04, .linha_05, .linha_06, .foot_copywriter, .single_publica, .single_voltar {
+    display:none; 
+}
+
+
+
+/* ------
+   TITULOS
+ -------- */
+.titulo_01, .titulo_02, .titulo_03, .titulo_04, .titulo_05, .titulo_06, .titulo_07, .titulo_08, .titulo_09, .titulo_10, .titulo_11, .titulo_12, .titulo_13, .single_tit{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+
+.blocos{
+    padding-top: 10px;
+    padding-bottom: px;    
+    border-top: 1px solid #bbb;
+}
+
+
+a, a:visited{
+    color:#ddd;  
+    text-decoration:none; 
+}
+
+a:link:after, a:visited:after{ 
+    display:none;  
+    text-decoration:none;  
+}
+
+a:after {content: " (" attr(href) ")";}
+
+p{ 
+    widows:3;  
+    orphans:3; 
+}
+
+p a{ 
+    word-wrap:break-word;  
+}
+
+.page-break { 
+    page-break-before: always; 
+}
+
+blockquote{
+    color:#666; 
+    margin:0 0 18px 18px; 
+    font-style:italic;  
+}
+
+q:before, q:after, blockquote:before, blockquote:after{ 
+    content:"("attr(cite) ")";  
+}
+
+table{
+    border-collapse:collapse; 
+    border-spacing:0;  
+}
+
+table, th, td{
+    border:1px solid #666;  
+}
+
+th, td{
+    padding:3px 5px; 
+    text-align:center;  
+    line-height:15px;  
+}
+
+ul, ol, dl{ 
+    page-break-before:avoid;  
+}
+
+hr{ 
+    padding:0;  
+    margin:0
+}
+
+h1{}
+
+h2{}
+
+h3{}
+
+h1 a:link:after, h1 a:visited:after{ 
+    content:"";  
+}
+
+strong{
+    font-weight:bold;  
+}
+
+input{
+    margin:5px 0;  
+}
+
+img{ 
+    max-width: 100%;
+}
+
+aside{ 
+    display:block;  
+    page-break-before:always;  
+}
+
+.page-break{ 
+    page-break-before:always;  
+}
+
+.header.print h1{ 
+    width:100%;  
+    margin-bottom:0.5cm;  
+}
+
+blockquote, table, pre{ 
+    page-break-inside:avoid;  
+}
+
